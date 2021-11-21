@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>增加学生</title>
+</head>
+<body>
+<!-- 请求方式为post，提交路径为action,  编译后访问http://localhost:8080/community/html/student.html，  静态网页 位于static.html路径下，static不用敲，直接敲/html/student.html-->
+    <form method="post" action="/community/alpha/student">
+        <p>
+            姓名：<input type="text" name="name">
+        </p>
+        <p>
+            年龄：<input type="text" name="age">
+        </p>
+        <p>
+            <input type="submit" value="保存">
+        </p>
+    </form>
+
+</body>
+</html>
